@@ -38,7 +38,7 @@
             android:title="@string/a52_risk_enable"
             android:summary="@string/a52_risk_enable_summary" />
 
-        <info.nightscout.androidaps.utils.textValidator.ValidatingEditTextPreference
+        <!--<info.nightscout.androidaps.utils.textValidator.ValidatingEditTextPreference
             android:defaultValue="160"
             android:dialogMessage="@string/halfbasalexercisetarget"
             android:digits="0123456789"
@@ -50,7 +50,7 @@
             android:title="@string/halfbasalexercisetarget_summary"
             validate:maxNumber="200"
             validate:minNumber="110"
-            validate:testType="numericRange" />
+            validate:testType="numericRange" />-->
 
         <SwitchPreference
             android:defaultValue="false"
